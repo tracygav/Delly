@@ -4,7 +4,7 @@ controller.hears(['Delly'], 'message_received', function(bot,message) {
   bot.startConversation(message,function(err,convo) {
 
     convo.say('Delly Trays All Day!');
-    convo.say('Have a nice day!');
+    convo.say('DELLY! DELLY! DELLY!');
 
   });
 });
